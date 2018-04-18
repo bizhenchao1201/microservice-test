@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>ms-Hystrix</module>
+		<module>ms-hystrix</module>
 	</modules>
 
 	<properties>
