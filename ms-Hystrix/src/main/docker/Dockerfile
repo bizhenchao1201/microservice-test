@@ -1,4 +1,4 @@
-FROM localhost:5000/microservice/java:8
+FROM 192.168.33.10:5000/microservice/java:8
 VOLUME /tmp
 ADD hystrix-dashboard-0.1.0.jar app.jar
 RUN bash -c 'touch /app.jar'
